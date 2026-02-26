@@ -1,0 +1,8 @@
+FastAPI es un framework moderno y rápido para construir APIs con Python.
+Está basado en estándares como OpenAPI y JSON Schema.
+
+FastAPI es muy utilizado para microservicios, APIs REST y sistemas de alto rendimiento.
+Permite validación automática de datos usando Pydantic.
+
+Un sistema RAG (Retrieval Augmented Generation) combina búsqueda de información
+con modelos de lenguaje para generar respuestas basadas en documentos propios.
