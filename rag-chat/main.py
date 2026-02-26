@@ -42,5 +42,5 @@ def chat(data: Question):
     if rag_chain is None:
         rag_chain = get_rag_chain()
 
-    result = rag_chain.invoke(data.question)
+    result = rag_chain(data.question)
     return {"answer": result}
