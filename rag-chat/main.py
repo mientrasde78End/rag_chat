@@ -3,7 +3,7 @@ load_dotenv()
 
 from fastapi import FastAPI
 from pydantic import BaseModel
-from rag.chain import get_rag_chain
+from rag.fake_chain import get_rag_chain
 from fastapi.middleware.cors import CORSMiddleware
 
 
